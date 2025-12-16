@@ -22,5 +22,5 @@ This project implements a comprehensive autonomous vehicle control and navigatio
 - **Safety-first approach** maintaining protective buffers while optimizing for goal efficiency
 
 ## Setup
-**pip install - r req.txt**
+**pip install -r req.txt**
 All required Python packages for simulations, controls, and visualizations are included in req.txt
