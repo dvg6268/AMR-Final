@@ -23,3 +23,4 @@ This project implements a comprehensive autonomous vehicle control and navigatio
 
 ## Setup
 **pip install - r req.txt**
+All required Python packages for simulations, controls, and visualizations are included in req.txt
