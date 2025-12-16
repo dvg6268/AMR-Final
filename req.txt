@@ -4,3 +4,10 @@ from scipy.integrate import solve_ivp
 import matplotlib.animation as animation
 from matplotlib.patches import Circle
 import matplotlib.gridspec as gridspec
+import matplotlib.patches as patches
+from matplotlib.widgets import Button, Slider, RadioButtons
+import matplotlib.animation as animation
+from dataclasses import dataclass
+from typing import List, Tuple, Dict
+import warnings
+warnings.filterwarnings('ignore')
