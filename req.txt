@@ -11,3 +11,6 @@ from dataclasses import dataclass
 from typing import List, Tuple, Dict
 import warnings
 warnings.filterwarnings('ignore')
+from scipy.interpolate import CubicSpline
+from dataclasses import dataclass
+from typing import Dict, Tuple, List, Optional
