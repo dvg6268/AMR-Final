@@ -21,3 +21,5 @@ This project implements a comprehensive autonomous vehicle control and navigatio
 - **Demonstration of limitations** including local minima problems and their practical implications
 - **Safety-first approach** maintaining protective buffers while optimizing for goal efficiency
 
+## Setup
+-**pip install - r req.txt
