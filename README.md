@@ -1,9 +1,27 @@
 # AMR-Final
 1. System Modeling
-This project implements a comprehensive 4-wheel Ackermann steering vehicle model that captures both kinematic and dynamic behavior. The kinematics model describes how steering angles translate to vehicle motion using Ackermann geometry principles, where front wheels turn at different angles to rotate around a common center. The dynamics model incorporates realistic physics including vehicle mass, inertia, tire forces, and slip dynamics, simulating how forces actually propel the vehicle through space. The implementation bridges mathematical theory with practical simulation, creating a virtual testbed that behaves like a real robotic vehicle.
+Comprehensive vehicle simulation with 4-wheel Ackermann steering kinematics and dynamics
+
+Realistic physics implementation including mass, inertia, tire forces, and slip dynamics
+
+Ackermann geometry principles where front wheels turn at different angles for smooth rotation
+
+Bridging theory to practice through virtual testbeds that mimic real robotic behavior
 
 2. Control Methodology
-We developed a Robust Sliding Mode Controller (SMC) for precise trajectory tracking. This control approach creates a virtual "sliding surface" in the error space, forcing the system to converge to desired states despite uncertainties. Stability is mathematically proven using Lyapunov analysis, guaranteeing the vehicle will follow the path without diverging. The controller was extensively tested with multiple scenarios including straight lines, lane changes, and complex figure-8 trajectories, validating performance under various conditions. We also implemented Control Barrier Functions (CBF) to ensure absolute safety by mathematically guaranteeing collision avoidance.
+Robust Sliding Mode Controller (SMC) for precise trajectory tracking despite uncertainties
+
+Mathematically proven stability using Lyapunov analysis and sliding surface convergence
+
+Control Barrier Functions (CBF) providing absolute safety guarantees for collision avoidance
+
+Multi-scenario validation including straight lines, lane changes, and complex figure-8 paths
 
 3. Motion Planning
-Our approach combines potential field navigation with advanced obstacle avoidance techniques. The system creates virtual "force fields" where goals attract the robot while obstacles repel it, generating natural navigation paths. For obstacle avoidance, we implemented both reactive methods (immediate response to threats) and proactive planning (anticipating future collisions). The key principle is creating smooth, predictable motion while maintaining safety margins, using techniques that balance between reaching the goal efficiently and avoiding all obstacles reliably.
+Potential field navigation creating virtual attractive (goal) and repulsive (obstacle) forces
+
+Hybrid obstacle avoidance combining reactive responses with proactive path planning
+
+Demonstration of limitations including local minima problems and their practical implications
+
+Safety-first approach maintaining protective buffers while optimizing for goal efficiency
